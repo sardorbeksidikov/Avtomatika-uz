@@ -12,7 +12,16 @@ const Navbar = () => {
       <div className="flex items-center space-x-2.5 text-sm">
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
           <Link href={"/"} className="mr-5 hover:text-blue-400 text-white">
-            Home page
+            Home 
+          </Link>
+          <Link href={"/about"} className="mr-5 hover:text-blue-400 text-white">
+            About
+          </Link>
+          <Link href={"/service"} className="mr-5 hover:text-blue-400 text-white">
+            Service
+          </Link>
+          <Link href={"/contact"} className="mr-5 hover:text-blue-400 text-white">
+            Contact
           </Link>
           <Link
             href={"/products"}
